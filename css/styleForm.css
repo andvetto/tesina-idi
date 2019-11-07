@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+#registrazione div{
+	margin:0 auto;
+	padding:20px;
+	width:100%;
+	color: #218ace;
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300;
+	text-align:center;
+}
+
+form h1{
+	margin-left:25px;
+	margin-bottom:-5px;
+	font-size:40px;
+	color:#004C99;
+	font-weight:bold;
+}
+
+label{
+	text-align:left;
+	
+}
+
+.in1{
+	margin-bottom: 10px;
+	width:100%;
+	max-width:700px;
+	height:25px;
+}
+
+#messaggio{
+	height:100px;
+}
+
+.in4{
+	margin-left:25px;
+	
+	
+	width:auto;
+	
+	height:32px;
+	color:#fff;
+	font-size:16px;
+}
+.errore{
+	border-color:red;
+}
+
+.nonmostrare{
+	display:none;
+}
+
+#successo{
+	margin-bottom:100px;
+	background-color:#FFF;
+}
+
+#loading{
+	display:none;position:absolute;top:0;left:0	
+}
+
+#successo a{
+	color:#b2222F!important;
+	font-weight:bold;
+}

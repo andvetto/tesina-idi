@@ -1,0 +1,14 @@
+	#btn-gallery:focus, .btn-gallery:active, btn-gallery:focus, btn-gallery:active {
+	  outline: none !important;
+	  box-shadow: none !important;
+	  background-color: #b22222 !important;
+	}
+
+	#image-gallery .modal-footer{
+	  display: block;
+	}
+
+	.thumb{
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	}
