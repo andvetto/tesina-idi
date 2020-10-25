@@ -2,6 +2,7 @@
 	$_SERVER['HTTP_HOST']; //recupero nome server = localhost
 	$_SERVER['PHP_SELF']; //recupera percorso = indirizzo nome file
 	
+	$urlsito = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 	
 				//locale
 	if($_SERVER['HTTP_HOST'] == 'localhost'){
@@ -10,8 +11,7 @@
 	}
 				//remoto
 	else{
-		$urlsito = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
-		$generaurl = 'https://tesina-idi.000webhostapp.com/';
+		$generaurl = substr($urlsito,0,33); 
 	}
 
 

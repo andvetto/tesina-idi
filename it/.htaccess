@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+#RewriteRule ^(.*)$ file.php?parametro1=$1
+#RewriteRule ^corsi$ corsi.php
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

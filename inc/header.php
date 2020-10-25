@@ -89,7 +89,7 @@
               <a class="nav-link <?php if ($page == 'contacts'){echo('active');}?>" href="<?php echo $generaurl; ?>en/contacts#page">CONTACTS</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="<?php echo $it_url; if ($page == 'home'){echo('/it');} if ($page != 'home'){echo('#page');} ?>"><img class="ico rounded" src="<?php echo $generaurl; ?>ico/it.svg" alt=""></a>
+              <a class="nav-link" href="<?php echo $it_url; if ($page != 'home'){echo('#page');} ?>"><img class="ico rounded" src="<?php echo $generaurl; ?>ico/it.svg" alt=""></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" onclick="return false"><img class="ico rounded" src="<?php echo $generaurl; ?>ico/gb.svg" alt=""></a>
